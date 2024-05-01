@@ -34,7 +34,7 @@ classifiers = [  #! Update me
 [tool.poetry.dependencies]
 python = "^3.10"
 typer = {extras = ["all"], version = "^0.4.0"}
-rich = "^10.14.0"
+rich = "^13.7.1"
 poetry-plugin-export = "^1.7.1"
 networkx = "^3.3"
 bokeh = "^3.4.1"
