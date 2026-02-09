@@ -414,18 +414,19 @@ toml = ["tomli ; python_full_version <= \"3.11.0a6\""]
 
 [[package]]
 name = "coverage-badge"
-version = "1.1.1"
+version = "1.1.2"
 description = "Generate coverage badges for Coverage.py."
 optional = false
 python-versions = "*"
 groups = ["dev"]
 files = [
-    {file = "coverage-badge-1.1.1.tar.gz", hash = "sha256:42252df917404af6147380861228a4ace3d9a29804df8fc2d34a22b2bc4f45b6"},
-    {file = "coverage_badge-1.1.1-py2.py3-none-any.whl", hash = "sha256:1d8e566ad47c37910fa2bbc74ea19972b171b5b4e40624b31b3e2f2d93680266"},
+    {file = "coverage_badge-1.1.2-py2.py3-none-any.whl", hash = "sha256:d8413ce51c91043a1692b943616b450868cbeeb0ea6a0c54a32f8318c9c96ff7"},
+    {file = "coverage_badge-1.1.2.tar.gz", hash = "sha256:fe7ed58a3b72dad85a553b64a99e963dea3847dcd0b8ddd2b38a00333618642c"},
 ]
 
 [package.dependencies]
 coverage = "*"
+setuptools = "*"
 
 [[package]]
 name = "cryptography"
@@ -2057,4 +2058,4 @@ hdfs = ["pyarrow"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "401bc4ce5d4911d7160f64074ea5b9909319c411024d68969efdb9efea126697"
+content-hash = "f7655d2af807634eeab8b3ac7ae51df2a77a67ea46c7608e06a9963620a8c29a"
