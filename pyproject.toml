@@ -39,7 +39,7 @@ hdfs = ["pyarrow"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-typer = {extras = ["all"], version = "^0.21.0"}
+typer = {extras = ["all"], version = "^0.21.1"}
 rich = "^13.7.1"
 networkx = "^3.3"
 hadoop = {git = "https://github.com/opaque-systems/sequencefile.git"}
